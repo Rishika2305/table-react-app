@@ -6,7 +6,7 @@ function App() {
   const [count, setCount] = useState(1);
 
   const handleButtonClick = () => {
-    console.log("Someone clicked me!!");
+    console.log("Someone clicked me!");
     setHeading("I've changed");
     setCount(count + 1);
   };
